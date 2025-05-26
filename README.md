@@ -1,10 +1,10 @@
-[Uploading README.md…]()# Car Rental System
+Car Rental System
 
 A Java-based Car Rental System with a Swing GUI, MySQL database integration, and modular MVC architecture. This project enables admins to manage cars and rentals, and customers to browse and book cars.
 
 ---
 
-## Table of Contents
+Table of Contents
 
 - [Features](#features)
 - [Project Structure](#project-structure)
@@ -21,20 +21,20 @@ A Java-based Car Rental System with a Swing GUI, MySQL database integration, and
 
 ---
 
-## Features
+Features
 
-- **Admin Login**: Secure login for admins.
-- **Customer Login**: Secure login for customers.
-- **Car Management**: Add, update, delete, and view cars (admin).
-- **Rental Management**: Book and return cars (customer).
-- **Dashboard**: Separate dashboards for admins and customers.
-- **Input Validation**: Basic validation on forms.
-- **Responsive GUI**: Java Swing user interface.
-- **MySQL Integration**: Persistent storage of users, cars, and rentals.
+- Admin Login: Secure login for admins.
+- Customer Login: Secure login for customers.
+- Car Management: Add, update, delete, and view cars (admin).
+- Rental Management :Book and return cars (customer).
+- Dashboard: Separate dashboards for admins and customers.
+- Input Validation: Basic validation on forms.
+- Responsive GUI: Java Swing user interface.
+- MySQL Integration: Persistent storage of users, cars, and rentals.
 
 ---
 
-## Project Structure
+Project Structure
 
 ```
 project-root/
@@ -65,7 +65,7 @@ project-root/
 
 ---
 
-## Technologies Used
+ Technologies Used
 
 - Java 8+
 - Java Swing (GUI)
@@ -76,9 +76,9 @@ project-root/
 
 ---
 
-## Setup Instructions
+Setup Instructions
 
-### 1. Prerequisites
+ 1. Prerequisites
 
 - Java JDK 8 or higher
 - MySQL Server
@@ -88,7 +88,7 @@ project-root/
 
 ---
 
-### 2. Database Setup
+ 2. Database Setup
 
 1. **Create Database and Tables**
 
@@ -136,7 +136,7 @@ INSERT INTO cars (brand, model, year, price_per_day) VALUES
 ('Ford', 'Focus', 2021, 40.00);
 ```
 
-2. **Update DB Credentials in Code**
+2. Update DB Credentials in Code
 
 ```java
 private static final String DB_URL = "jdbc:mysql://localhost:3306/car_rental";
@@ -146,9 +146,9 @@ private static final String DB_PASSWORD = "your_password"; // Replace with your 
 
 ---
 
-### 3. Project Build & Run
+3. Project Build & Run
 
-To **compile** the project:
+To compile the project:
 
 ```bash
 javac -d bin -cp "lib/mysql-connector-java.jar" src/com/domain/carrental/**/*.java
@@ -172,13 +172,3 @@ java -cp "bin;lib/mysql-connector-java.jar" com.domain.carrental.Main
   - Password: `customer123`
 
 Navigate through the dashboard to perform respective operations such as car management or rental booking.
-
----
-
-
----
-
-## License
-
-This project is open-source and free to use under the [MIT License](LICENSE).
-
