@@ -1,0 +1,34 @@
+project-root/
+├── src/
+│   ├── com/
+│   │   ├── domain/
+│   │   │   └── carrental/
+│   │   │       ├── Main.java
+│   │   │       ├── model/
+│   │   │       │   ├── Car.java
+│   │   │       │   ├── Customer.java
+│   │   │       │   └── Rental.java
+│   │   │       ├── view/
+│   │   │       │   ├── LoginFrame.java
+│   │   │       │   ├── AdminDashboard.java
+│   │   │       │   └── CustomerDashboard.java
+│   │   │       ├── controller/
+│   │   │       │   ├── LoginController.java
+│   │   │       │   ├── CarController.java
+│   │   │       │   └── RentalController.java
+│   │   │       ├── dao/
+│   │   │       │   ├── DatabaseConnector.java
+│   │   │       │   ├── CarDAO.java
+│   │   │       │   └── RentalDAO.java
+│   │   │       └── utils/
+│   │               ├── Validator.java
+│                   └── PaymentProcessor.java
+├── resources/
+│    ├── config.properties
+│    └── messages.properties
+├── lib/
+│    └── mysql-connector-java.jar
+└── test/
+    ├── com/domain/carrental/model/
+    ├── com/domain/carrental/controller/
+    └── com/domain/carrental/dao/
