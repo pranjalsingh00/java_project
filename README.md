@@ -14,12 +14,6 @@ Table of Contents
   - [2. Database Setup](#2-database-setup)
   - [3. Project Build & Run](#3-project-build--run)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [FAQ](#faq)
-- [Contributing](#contributing)
-- [License](#license)
-
----
 
 Features
 
